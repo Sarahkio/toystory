@@ -1,0 +1,133 @@
+body {
+  font-family: Roboto;
+  background-color: rgba(85, 130, 198);
+  font-size: 17px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+.wallpaper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background: url("images/wallpaper.jpeg");
+  background-size: 100% 1300px;
+  margin-bottom: 150px;
+}
+.wallpaper-wrapper div img {
+  width: 200px;
+  height: 300px;
+}
+.headerContents {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
+  padding-left: 5%;
+}
+.headerTitle {
+  position: absolute;
+  top: 165px;
+  width: 450px;
+  margin-left: 50px;
+}
+.headerWrapper {
+  float: right;
+  text-align: center;
+}
+.paddingWrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  color: rgb(150, 0, 1);
+  font-size: 70px;
+  font-family: Cabin;
+  background-color: lightblue;
+  height: 75px;
+  font-weight: bold;
+}
+h2 {
+  font-family: Cabin;
+  color:rgb(150, 0, 1);
+  font-size: 36px;
+}
+h3 {
+  color: rgb(150, 0, 1);
+  font-family: Cabin;
+  font-size: 24px;
+}
+p {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: rgb(226, 229, 95);
+}
+hr {
+  color: rgb(150, 194, 95);
+}
+
+.characterWrapper {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.characterItem {
+  width: 50%;
+}
+
+.characterImg {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.quoteWrapper {
+  background-color: rgb(226, 229, 95);
+  padding: 30px;
+}
+
+.quoteContent {
+  margin-left: 100px;
+  text-align: left;
+}
+.quote {
+  color: rgb(150, 0, 1);
+}
+strong {
+  font-weight: bold;
+  color: rgb(150, 0, 1);
+}
+em {
+  font-style:italic;
+}
+.Comments {
+  font-size: 36px;
+  color: rgb(150, 0, 1);
+}
+
+.rateWrapper {
+  height: 30px;
+}
+#rateid {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 10px
+  display: flex;
+  flex-direction: column-reverse;
+}
+#buttonid {
+  width: 165px;
+  color: white;
+  margin-bottom: 0 px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+#buttonid:hover {
+  background-color: rgb(121, 81, 159);
+}
